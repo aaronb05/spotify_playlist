@@ -5,7 +5,6 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 load_dotenv()
-URL = "https://api.spotify.com/v1"
 client_id = os.getenv("client_id")
 secret = os.getenv("client_secret")
 redirect_uri = os.getenv("redirect_uri")
